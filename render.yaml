@@ -12,5 +12,7 @@ services:
         value: 5000
       - key: JWT_SECRET
         generateValue: true
+      - key: MONGODB_URI
+        value: mongodb+srv://sidhujadhavkop1:sidhu2131@bookmanagementapp.msdx84j.mongodb.net/
       - key: JWT_EXPIRES_IN
         value: 7d
